@@ -2,17 +2,9 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	box-sizing: border-box;
 }
+
 .recipe {
 	font-family: 'Brush Script MT', cursive;
-}
-
-.sidebar {
-	display: inline-block;
-	width: 50%;
-}
-
-.img-container {
-	display: inline-block;
 }
 
 .heading-container,
@@ -20,13 +12,36 @@
 	width: 80%;
 	margin: auto;
 	margin-top: 2%;
+	padding: 1%;
+}
+
+.sidebar,
+.parent-container,
+img,
+.footer {
+	border-radius: 1em;
+	border: solid black 0.1em;
+}
+
+.sidebar {
+	display: inline-block;
+	width: 50%;
+	background-color: gainsboro;
+	padding: 1%;
+}
+
+img {
+	display: inline-block;
+	width: 35%;
+	height: auto;
 }
 
 .heading-container {
 	font-size: 3em;
 }
 
-.parent-container {
-	background-color: gainsboro;
-	padding: 1%;
+.sidebar,
+img {
+	vertical-align: top;
+	margin: 1%;
 }
