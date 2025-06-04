@@ -1,0 +1,32 @@
+* {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	box-sizing: border-box;
+}
+.recipe {
+	font-family: 'Brush Script MT', cursive;
+}
+
+.sidebar {
+	display: inline-block;
+	width: 50%;
+}
+
+.img-container {
+	display: inline-block;
+}
+
+.heading-container,
+.parent-container {
+	width: 80%;
+	margin: auto;
+	margin-top: 2%;
+}
+
+.heading-container {
+	font-size: 3em;
+}
+
+.parent-container {
+	background-color: gainsboro;
+	padding: 1%;
+}
