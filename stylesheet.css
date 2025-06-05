@@ -1,47 +1,38 @@
+.site-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 10% 0 10%;
+	gap: 1em;
+}
+
 * {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
 }
 
 .recipe {
 	font-family: 'Brush Script MT', cursive;
 }
 
-.heading-container,
-.parent-container {
-	width: 80%;
-	margin: auto;
-	margin-top: 2%;
-	padding: 1%;
-}
-
-.sidebar,
-.parent-container,
-img,
-.footer {
-	border-radius: 1em;
-	border: solid black 0.1em;
-}
-
-.sidebar {
-	display: inline-block;
-	width: 50%;
-	background-color: gainsboro;
-	padding: 1%;
+.flex-container-1 {
+	display: flex;
+	justify-content: center;
+	gap: 2%;
 }
 
 img {
-	display: inline-block;
-	width: 35%;
+	width: 10%;
 	height: auto;
 }
 
-.heading-container {
-	font-size: 3em;
-}
-
-.sidebar,
-img {
-	vertical-align: top;
-	margin: 1%;
+.box {
+	background-color: gainsboro;
+	border: solid black 0.1em;
+	border-radius: 1em;
+	padding: 0.5em;
 }
