@@ -15,8 +15,11 @@ p {
 	margin: 0;
 }
 
-.recipe {
+.header {
 	font-family: 'Brush Script MT', cursive;
+	font-size: 3em;
+	color: turquoise;
+	filter: drop-shadow(10px 5px 4px rgb(13 28 60 /50%));
 }
 
 .flex-container-1 {
@@ -25,14 +28,36 @@ p {
 	gap: 2%;
 }
 
+.flex-container-1 > * {
+	flex: 1;
+}
+
 img {
-	width: 10%;
+	width: 50%;
 	height: auto;
 }
 
 .box {
-	background-color: gainsboro;
+	background-color: white;
 	border: solid black 0.1em;
 	border-radius: 1em;
 	padding: 0.5em;
+	filter: drop-shadow(10px 5px 4px rgb(13 28 60 /50%));
+}
+
+a,
+a:visited,
+a:active,
+a:hover {
+	color: black;
+}
+
+a:hover {
+	font-size: 1.2em;
+	transition: 0.3s;
+}
+
+.italy {
+	background-image: url(./recipes/background.jpg);
+	background-size: cover;
 }
